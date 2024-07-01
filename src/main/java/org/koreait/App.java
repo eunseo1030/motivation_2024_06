@@ -38,6 +38,9 @@ public class App {
                 case "delete":
                     motivationController.delete(rq);
                     break;
+                case "edit":
+                    motivationController.edit(rq);
+                    break;
                 default:
                     System.out.println("사용할 수 없는 명령어입니다");
                     break;
